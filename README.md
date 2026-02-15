@@ -203,11 +203,11 @@ This is required for nix-shell to enter the FHS environment properly.
 
 *Users must obtain QNX Software Development Platform legally from BlackBerry. This repository only provides a compatibility wrapper for NixOS.*
 
-### License
+## License
 
 This project is licensed under the MIT License.
 
-### Contributing
+## Contributing
 
 Pull requests are welcome for:
 - Additional QNX version support
