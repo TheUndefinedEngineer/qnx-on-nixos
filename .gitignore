@@ -23,10 +23,5 @@ result-*
 # Shell history
 .history
 
-# Ignore random images, but allow screenshots folder
-*.png
-!screenshots/*.png
-
-
 # Logs
 *.log
