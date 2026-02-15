@@ -1,0 +1,32 @@
+# Nix build artifacts
+result
+result-*
+
+# Nix temporary files
+*.drv
+*.lock
+
+# Editor files
+*~
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# OS files
+.DS_Store
+
+# Shell history
+.history
+
+# Screenshots (if you add them separately)
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
