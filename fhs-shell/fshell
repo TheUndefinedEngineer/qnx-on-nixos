@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+case "$1" in
+  qnx)
+    nix-shell "$DIR/qnx-fhs.nix" --run "
+      source \$HOME/qnx800/qnxsdp-env.sh
+      exec bash -i
+    "
+    ;;
+  *)
+    echo "Usage: fshell qnx"
+    ;;
+esac
